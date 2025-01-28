@@ -6,9 +6,10 @@ import (
 	"os"
 )
 
-const configFileName = "aggregatorConfig.json"
+const configFileName = ".aggregatorConfig.json"
 
-//bootdev ver:  const configFileName = ".gatorconfig.json"
+// bootdev ver:
+// const configFileName = ".gatorconfig.json"
 
 func Read() (Config, error) {
 
