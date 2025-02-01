@@ -23,4 +23,4 @@ FROM
     users;
 
 -- name: DeleteAllUsers :exec
-TRUNCATE TABLE users;
+DELETE from users;
